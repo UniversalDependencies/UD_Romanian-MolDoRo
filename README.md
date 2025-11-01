@@ -19,13 +19,13 @@
 
 # Changelog
 
-* 2025-05-15 v2.16
+* 2025-11-15 v2.17
   * Initial release in Universal Dependencies.
 
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.16
+Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
