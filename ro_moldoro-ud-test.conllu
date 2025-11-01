@@ -124,7 +124,7 @@
 14	.	.	PUNCT	_	_	8	punct	_	SpaceAfter=No
 
 # sent_id = 12
-# text =Время де винерь ну цине.
+# text = Время де винерь ну цине.
 1	Время	време	NOUN	_	_	5	nsubj	_	_
 2	де	де	ADP	_	_	3	case	_	_
 3	винерь	винерь	NOUN	_	_	1	nmod	_	_
@@ -145,7 +145,7 @@
 9	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
 
 # sent_id = 14
-# text =Плоая де диминяцэ ну цине мулт.
+# text = Плоая де диминяцэ ну цине мулт.
 1	Плоая	плоае	NOUN	_	_	5	nsubj	_	_
 2	де	де	ADP	_	_	3	case	_	_
 3	диминяцэ	диминяцэ	NOUN	_	_	1	nmod	_	_
@@ -159,7 +159,7 @@
 1	Плоая	плоае	NOUN	_	_	0	root	_	_
 2	диминяца	диминяцэ	NOUN	_	_	1	nsubj	_	_
 3	ка	ка	ADV	_	_	4	advmod	_	_
-4	хора	хорэ	NOUN	_	_	2	obl	_	_
+4	хора	хорэ	NOUN	_	_	2	nmod	_	_
 5	де	де	ADP	_	_	6	case	_	_
 6	бабе	бабэ	NOUN	_	_	4	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	SpaceAfter=No
