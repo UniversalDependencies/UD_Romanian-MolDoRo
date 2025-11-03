@@ -1,6 +1,6 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+A small treebank of sentences in Moldovan Romanian, using the Cyrillic writing system (as used in Moldova until 1989).
 
 
 # Introduction
