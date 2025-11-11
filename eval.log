@@ -1,0 +1,41 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Romanian-MolDoRo:
+commit effddfc15405bd8e87bec669ef914b0da07b4db0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:25:43 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ro_moldoro'
+Language code (from CoNLL-U file name) = 'ro'
+Found the following data files: ro_moldoro-ud-test.conllu
+Size: counted 241 of 241 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 12 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 0 out of 241 total words have one or more features.
+Features: source of annotation (from README) factor is 0.4.
+Universal relations: 21 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-MolDoRo/ro_moldoro-ud-test.conllu
+[Line 308 Sent 28]: [L3 Warning fixed-without-extpos] Fixed expression 'кыт де бун' does not have the 'ExtPos' feature
+Warnings: 1
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.01) = 0.00111111111111111
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.705882352941177) = 0.0784313725490196
+(weight=0.111111111111111) * (score{udeprels}=0.567567567567568) = 0.0630630630630631
+(TOTAL score=0.260630238081218) * (availability=1) * (validity=1) = 0.260630238081218
+STARS = 1.5
+UD_Romanian-MolDoRo	0.260630238081218	1.5
