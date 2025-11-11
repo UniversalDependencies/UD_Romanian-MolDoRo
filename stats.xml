@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>30</sentences><tokens>239</tokens><words>241</words><fused>2</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>30</sentences><tokens>239</tokens><words>241</words><fused>2</fused></test>
+  </size>
+  <lemmas unique="105" /><!-- ., ,, ну, соаре, плоае, сине, де, ши, фи, ку, кынд, пэмынт, а, бун, вени -->
+  <forms unique="118" /><!-- ., ,, ну, де, се, ши, соаре, ку, кынд, плоае, Плоая, пэмынтул, соареле, А, плоуэ -->
+  <fusions unique="2" /><!-- Лас’сэ, н’ау -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="12">
+    <tag name="ADJ">14</tag><!-- бун, алб, калд, курат, маре, мэрунцикэ, негру, плойос, рэу, сенин -->
+    <tag name="ADP">19</tag><!-- де, ку, дупэ, пе, ла, фэрэ, ын -->
+    <tag name="ADV">14</tag><!-- кынд, ка, декыт, кыт, май, мулт, нумай, унде, ынчет -->
+    <tag name="AUX">3</tag><!-- фи -->
+    <tag name="CCONJ">7</tag><!-- ши -->
+    <tag name="DET">5</tag><!-- ун, мулт, орьче, сэу -->
+    <tag name="NOUN">59</tag><!-- соаре, плоае, пэмынт, време, Чер, апэ, диминяцэ, зи, бабэ, булбук -->
+    <tag name="PART">20</tag><!-- ну, а, сэ -->
+    <tag name="PRON">12</tag><!-- сине, ел, каре, нимень -->
+    <tag name="PUNCT">47</tag><!-- ., ,, —, - -->
+    <tag name="SCONJ">2</tag><!-- пынэ -->
+    <tag name="VERB">39</tag><!-- вени, плоуа, фаче, фи, цине, авя, ынтра, адуна, асфинци, афунда -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="21">
+    <dep name="acl">1</dep>
+    <dep name="advcl">8</dep>
+    <dep name="advmod">27</dep>
+    <dep name="amod">10</dep>
+    <dep name="case">19</dep>
+    <dep name="cc">7</dep>
+    <dep name="conj">7</dep>
+    <dep name="cop">3</dep>
+    <dep name="det">6</dep>
+    <dep name="expl:pv">8</dep>
+    <dep name="fixed">2</dep>
+    <dep name="iobj">1</dep>
+    <dep name="mark">8</dep>
+    <dep name="nmod">11</dep>
+    <dep name="nsubj">26</dep>
+    <dep name="obj">9</dep>
+    <dep name="obl">6</dep>
+    <dep name="parataxis">2</dep>
+    <dep name="punct">47</dep>
+    <dep name="root">30</dep>
+    <dep name="xcomp">3</dep>
+  </deps>
+</treebank>
