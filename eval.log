@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Romanian-MolDoRo:
-commit effddfc15405bd8e87bec669ef914b0da07b4db0
+commit 735e9b24d68528fb24cc8021973af7286f4baf90
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 15:25:43 2025 +0100
+Date:   Tue Nov 11 20:33:54 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ro_moldoro'
 Language code (from CoNLL-U file name) = 'ro'
@@ -25,7 +25,7 @@ Universal relations: 21 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ro --max-err=10 UD_Romanian-MolDoRo/ro_moldoro-ud-test.conllu
-[Line 308 Sent 28]: [L3 Warning fixed-without-extpos] Fixed expression 'кыт де бун' does not have the 'ExtPos' feature
+[Line 308 Sent 28]: [L3 WARNING fixed-without-extpos] Fixed expression 'кыт де бун' does not have the 'ExtPos' feature
 Warnings: 1
 *** PASSED ***
 Validity: 1
